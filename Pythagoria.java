@@ -11,7 +11,9 @@ public class Pythagoria {
          double a = sc.nextDouble();
          double b = sc.nextDouble();
          System.out.println(Pytha(a,b));
-
+         if(a>0 && b>0) {
+             System.out.println(Pytha(a, b));
+         }
 
 
 
