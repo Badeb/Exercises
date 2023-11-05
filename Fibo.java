@@ -11,7 +11,9 @@ public class Fibo {
         System.out.println("enter number ");
         int n =sc.nextInt();
         System.out.println("fibonacci terim = " + Fib(n));
-
+        if(n>=0) {
+            System.out.println("fibonacci terim = " + Fib(n));
+        }
 
     }
 }
